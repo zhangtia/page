@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { About } from './About';
 import { Contact } from './Contact';
@@ -10,9 +10,9 @@ function App() {
     <React.Fragment>
       <Router>
         <Switch>
-          <Route exact path="/page" component={Home} />
-          <Route path="/page/about" component={About} />
-          <Route path="/page/contact" component={Contact} />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>
       </Router>

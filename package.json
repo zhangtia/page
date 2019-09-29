@@ -2,12 +2,20 @@
   "name": "page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://zhangtia.github.io/page/",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.1",
+    "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.10.1",
-    "react-scripts": "3.1.2"
+    "react-router-dom": "^5.1.1",
+    "react-scripts": "3.1.2",
+    "styled-components": "^4.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

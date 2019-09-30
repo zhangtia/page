@@ -5,10 +5,12 @@ import { About } from './About';
 import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
-
+import { NavigationBar } from './components/NavigationBar';
+ 
 function App() {
   return (
     <React.Fragment>
+      <NavigationBar />
       <Layout>
         <Router>
           <Switch>

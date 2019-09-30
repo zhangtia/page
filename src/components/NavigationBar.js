@@ -4,14 +4,13 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
     .navbar {
-        background-color: #222;
+        background-color: white;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
-        color: #bbb;
-
+        color: black;
         &:hover {
-            color: white;
+            color: grey;
         }
     }
 `;
@@ -22,7 +21,7 @@ export const NavigationBar = () => (
             <Navbar.Brand href="/page/#/">Tianqi Zhang</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="m1-auto">
+            <Nav className="m1-auto">
                     <Nav.Item><Nav.Link href="/page/#/">Home</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/page/#/about">About</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/page/#/contact">Contact</Nav.Link></Nav.Item>

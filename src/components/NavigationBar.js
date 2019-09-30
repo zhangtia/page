@@ -19,13 +19,13 @@ const Styles = styled.div`
 export const NavigationBar = () => (
     <Styles>
         <Navbar expand="lg">
-            <Navbar.Brand href="/">Tianqi Zhang</Navbar.Brand>
+            <Navbar.Brand href="/page/#/">Tianqi Zhang</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="m1-auto">
-                    <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/page/#/">Home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/page/#/about">About</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/page/#/contact">Contact</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

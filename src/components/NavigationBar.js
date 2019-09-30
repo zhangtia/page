@@ -8,7 +8,7 @@ const Styles = styled.div`
     }
 
     .navbar-brand, .navbar-nav .nav-link {
-        color: black;
+        color: white;
         &:hover {
             color: grey;
         }
@@ -17,16 +17,17 @@ const Styles = styled.div`
 
 export const NavigationBar = () => (
     <Styles>
-        <Navbar expand="lg">
-            <Navbar.Brand href="/page/#/">Tianqi Zhang</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="m1-auto">
-                    <Nav.Item><Nav.Link href="/page/#/">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/page/#/about">About</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/page/#/contact">Contact</Nav.Link></Nav.Item>
-                </Nav>
-            </Navbar.Collapse>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar.Brand href="/page/#/">Tianqi Zhang</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto"></Nav>
+            <Nav>
+                <Nav.Link href="/page/#">Home</Nav.Link>
+                <Nav.Link href="/page/#/about">About</Nav.Link>
+                <Nav.Link href="/page/#/contact">Contact</Nav.Link>
+            </Nav>
+        </Navbar.Collapse>
         </Navbar>
     </Styles>
 )

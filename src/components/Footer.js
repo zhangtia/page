@@ -1,7 +1,5 @@
 import React from 'react';
-import { Nav, Navbar, Container, Row, Col } from 'react-bootstrap';
-import styled from 'styled-components';
-
+import { Nav, Navbar } from 'react-bootstrap';
 
 
 

@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 
 
 
-
+/*
 export const Footer = () => (
     <Navbar variant="pill" fixed="bottom" expand="lg" bg="dark">
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -14,4 +14,4 @@ export const Footer = () => (
         </Nav>
         </Navbar.Collapse>
     </Navbar>
-)
+)*/

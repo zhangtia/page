@@ -1,4 +1,7 @@
 import React from 'react';
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 
@@ -27,6 +30,42 @@ export const NavigationBar = () => (
                 <Nav.Link href="/page/#/about">About</Nav.Link>
                 <Nav.Link href="/page/#/contact">Contact</Nav.Link>
             </Nav>
+        </Navbar.Collapse>
+        </Navbar>
+    </Styles>
+)
+
+export const Footer = () => (
+    <Styles>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+            
+            <Nav>
+                <Nav.Link href="/page/#">Home</Nav.Link>
+                <Nav.Link href="/page/#/about">About</Nav.Link>
+                <Nav.Link href="/page/#/contact">Contact</Nav.Link>
+            </Nav>
+        </Navbar.Collapse>
+        </Navbar>
+    </Styles>
+)
+
+export const Test = () => (
+    <Styles>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+            
+            
+                <Container>
+                <Row className="justify-content-md-center">
+                <Col><Nav.Link href="/page/#">Home</Nav.Link></Col>
+                <Col><Nav.Link href="/page/#/about">About</Nav.Link></Col>
+                <Col><Nav.Link href="/page/#/contact">Contact</Nav.Link></Col>
+                </Row>
+                </Container>
+            
         </Navbar.Collapse>
         </Navbar>
     </Styles>

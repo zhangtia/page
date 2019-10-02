@@ -5,6 +5,7 @@
   "homepage": "http://zhangtia.github.io/page/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "flexbox-react": "^4.4.0",
     "gh-pages": "^2.1.1",
     "react": "^16.10.1",
     "react-bootstrap": "^1.0.0-beta.12",

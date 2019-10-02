@@ -60,9 +60,9 @@ export const Test = () => (
             
                 <Container>
                 <Row className="justify-content-md-center">
-                <Col><Nav.Link href="/page/#">Home</Nav.Link></Col>
-                <Col><Nav.Link href="/page/#/about">About</Nav.Link></Col>
-                <Col><Nav.Link href="/page/#/contact">Contact</Nav.Link></Col>
+                <Col xs lg="2"><Nav.Link href="https://github.com/zhangtia">GITHUB BABY</Nav.Link></Col>
+                <Col xs lg="2"><Nav.Link href="/page/#/about">About</Nav.Link></Col>
+                <Col xs lg="2"><Nav.Link href="/page/#/contact">Contact</Nav.Link></Col>
                 </Row>
                 </Container>
             

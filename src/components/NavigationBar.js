@@ -16,6 +16,10 @@ const Styles = styled.div`
             color: grey;
         }
     }
+
+    .ftr {
+        margin-top: auto;
+    }
 `;
 
 export const NavigationBar = () => (
@@ -35,29 +39,25 @@ export const NavigationBar = () => (
     </Styles>
 )
 
+
+
+
 export const Footer = () => (
-    <Styles>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-            
-            <Nav>
-                <Nav.Link href="/page/#">Home</Nav.Link>
-                <Nav.Link href="/page/#/about">About</Nav.Link>
-                <Nav.Link href="/page/#/contact">Contact</Nav.Link>
-            </Nav>
-        </Navbar.Collapse>
-        </Navbar>
-    </Styles>
+<footer style={{marginTop:"auto"}}>
+    <header class="page-header">This is the header</header>
+    <article class="page-body">
+        <p>Main page content here, add more if you want to see the footer push down.</p>
+    </article>
+    <footer class="page-footer">Sticky footer</footer>
+</footer>
+
 )
 
 export const Test = () => (
     <Styles>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="bottom">
+        <Navbar class="ftr" collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="bottom">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-            
-            
                 <Container>
                 <Row className="justify-content-md-center">
                 <Col xs lg="2"><Nav.Link href="https://github.com/zhangtia">GITHUB BABY</Nav.Link></Col>
@@ -69,4 +69,6 @@ export const Test = () => (
         </Navbar.Collapse>
         </Navbar>
     </Styles>
+
+    
 )

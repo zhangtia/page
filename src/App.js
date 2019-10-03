@@ -9,8 +9,11 @@ import { NavigationBar, Footer, Test } from './components/NavigationBar';
 import { Jumbotron } from './components/Jumbotron';
 //import { Footer } from './components/Footer';
 
+
+
 function App() {
   return (
+  
     <React.Fragment>
       <NavigationBar />
       <Jumbotron />
@@ -23,9 +26,10 @@ function App() {
             <Route component={NoMatch} />
           </Switch>
         </Router>
-      </Layout>
+        </Layout>
       <Test />
     </React.Fragment>
+
   );
 }
 

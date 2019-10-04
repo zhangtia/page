@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export const Home = () => (
     <div>
         <h2>THIS WILL BE MY HOME PAGE</h2>

@@ -2,6 +2,6 @@ import React from 'react';
 
 export const NoMatch = () => (
     <div>
-        U lost bro?
+        u lost
     </div>
 )

@@ -9,5 +9,53 @@ export const About = () => (
         <p>
             I like soccer and breakdancing in my free time!
         </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
+
+                <p>
+            I like soccer and breakdancing in my free time!
+        </p>        <p>
+            I like soccer and breakdancing in my free time!
+        </p>
     </div>
 )

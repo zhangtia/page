@@ -56,8 +56,8 @@ export const Footer = () => (
 export const Test = () => (
     <Styles>
         <Navbar class="ftr" collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="bottom">
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        
+        <Navbar.Collapse id="basic-navbar-nav">
                 <Container>
                 <Row className="justify-content-md-center">
                 <Col xs lg="2"><Nav.Link href="https://github.com/zhangtia">GITHUB BABY</Nav.Link></Col>

@@ -12,6 +12,8 @@ export const About = () => (
         </p>
         <div class="flex-container">
             <div class="box-soccer"> i like soccer hehe </div>
+        </div>
+        <div class="flex-container">
             <img src={scr} class="soccer-pic" width="30%" />
         </div>
         <div class="flex-container">

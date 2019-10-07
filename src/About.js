@@ -1,8 +1,8 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
 import './About.css';
 import scr from './assets/scr.jpg';
-import e1 from './assets/e1.jpg'
+import e1 from './assets/e1.jpg';
+import hi from './assets/hi.jpg';
 
 export const About = () => (
     <div>
@@ -10,15 +10,28 @@ export const About = () => (
         <p>
             This webpage is an example of my project!
         </p>
-        <div class="flex-container">
-            <div class="box-soccer"> i like soccer hehe </div>
+        <div class="grid-flex">
+            <div class="col col-text">
+                <div class="Aligner-item">
+                    <p> i like soccer
+                    </p>
+                </div>
+            </div>
+            <div class="col col-image">
+                <img src={scr} class="soccer-pic" />
+            </div>
         </div>
-        <div class="flex-container">
-            <img src={scr} class="soccer-pic" width="30%" />
-        </div>
-        <div class="flex-container">
-            <img src={e1} class="bboy-pic" width="30%" />
-            <div class="box-bboy"> i like breakdancing hehe </div>
+
+        <div class="grid-flex">
+            <div class="col col-image">
+                <img src={e1} class="bboy-pic" />
+            </div>
+            <div class="col col-text">
+                <div class="Aligner-item">
+                    <p> breakdancing lol
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 )

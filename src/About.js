@@ -23,14 +23,14 @@ export const About = () => (
         </div>
 
         <div class="grid-flex">
-            <div class="col col-image">
-                <img src={e1} class="bboy-pic" />
-            </div>
             <div class="col col-text">
                 <div class="Aligner-item">
                     <p> breakdancing lol
                     </p>
                 </div>
+            </div>
+            <div class="col col-image">
+                <img src={e1} class="bboy-pic" />
             </div>
         </div>
     </div>

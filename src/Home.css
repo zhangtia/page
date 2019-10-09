@@ -1,0 +1,29 @@
+.parent {
+    width: 100%;
+    padding-bottom: 25%;
+  }
+  
+
+
+
+
+  .column {
+    float: left;
+    
+  }
+  
+  .left {
+    width: 30%;
+  }
+  
+  .right {
+    width: 70%;
+    padding-left: 10%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

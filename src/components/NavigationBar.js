@@ -60,8 +60,8 @@ export const Test = () => (
         <Navbar.Collapse id="basic-navbar-nav">
                 <Container>
                 <Row className="justify-content-md-center">
-                <Col xs lg="2"><Nav.Link href="https://github.com/zhangtia">GITHUB BABY</Nav.Link></Col>
-                <Col xs lg="2"><Nav.Link href="mailto: zhangtia@umich.edu">EMAIL ME PLS</Nav.Link></Col>
+                <Col xs lg="2"><Nav.Link href="https://github.com/zhangtia">GITHUB</Nav.Link></Col>
+                <Col xs lg="2"><Nav.Link href="mailto: zhangtia@umich.edu">EMAIL</Nav.Link></Col>
                 <Col xs lg="2"><Nav.Link href="/page/#/contact">Contact</Nav.Link></Col>
                 </Row>
                 </Container>

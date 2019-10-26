@@ -11,7 +11,7 @@
   }
   
   .col-text {
-    height:20em;
+    height:400px;
   }
   .grid-flex {
     display: -webkit-box;
@@ -43,9 +43,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
   }
   .Aligner-item {
-    width: 60%;
+    width: 90%;
   }
   .col-image {
     background-size: cover;
@@ -77,4 +78,9 @@
   }
   
   
+  div.mybox {
+    background-color: #ffffff;
+    color: black;
+    opacity: 0.6;
+  }
   

@@ -21,7 +21,13 @@ export const Home = () => (
                 <p><b>:D</b></p>
             </div>
         </div>
-        <p>.</p>
+        <div class="filler">.</div>
+        <div class="filler">.</div>
+        <div class="filler">.</div>
+        <div class="filler">.</div>
+        <div class="filler">.</div>
+
+
     </div>
 )
 

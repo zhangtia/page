@@ -1,5 +1,4 @@
 import React from 'react';
-import res from './assets/Resume_Nov_11.pdf';
 
 export const Contact = () => (
     <div>

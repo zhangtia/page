@@ -5,7 +5,7 @@ import { About } from './About';
 import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
-import { NavigationBar, Footer, Test } from './components/NavigationBar';
+import { NavigationBar, FooterPage, Test } from './components/NavigationBar';
 import { Jumbotron } from './components/Jumbotron';
 //import { Footer } from './components/Footer';
 
@@ -27,7 +27,7 @@ function App() {
           </Switch>
         </Router>
         </Layout>
-      <Test />
+      <FooterPage />
     </React.Fragment>
 
   );

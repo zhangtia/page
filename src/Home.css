@@ -15,10 +15,19 @@
   .left {
     width: 30%;
   }
+
+  .lefttwo {
+    width: 40%;
+  }
   
   .right {
     width: 70%;
     padding-left: 10%;
+  }
+
+  .righttwo {
+    width: 60%;
+    padding-left: 3%;
   }
   
   /* Clear floats after the columns */

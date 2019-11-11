@@ -31,7 +31,7 @@ export const Jumbotron = () => (
             <div className="overlay"></div>
             <Container>
                 <h1>Welcome, Webpage in development!</h1>
-                <p>Last Edit : 26 Oct 2019 16:37:58  --  Used carousel for about, added resume</p>
+                <p>Last Edit : 11 Nov 2019 15:10:31  --  Updated front page and resume</p>
             </Container>
         </Jumbo>
     </Styles>

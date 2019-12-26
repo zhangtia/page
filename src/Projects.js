@@ -3,11 +3,13 @@ import './Projects.css';
 
 export const Project = () => (
     <div>
-        <h4>Project page</h4>
-        <div class="left">
-            Capture the Breaker Tournament Generator - Personal project
+        <div class="titlep">
+            <h2>Project page</h2>
         </div>
-        <div class="right">
+        <div class="leftp">
+            <h4>Capture the Breaker Tournament Generator - Personal project</h4>
+        </div>
+        <div class="rightp">
             Created a simple app using Spring Boot and React. 
         </div>
     </div>

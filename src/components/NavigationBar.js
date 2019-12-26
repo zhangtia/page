@@ -33,6 +33,7 @@ export const NavigationBar = () => (
                 <Nav>
                     <Nav.Link href="/page/#">Home</Nav.Link>
                     <Nav.Link href="/page/#/about">About</Nav.Link>
+                    <Nav.Link href="/page/#/projects">Projects</Nav.Link>
                     <Nav.Link href="https://zhangtia.github.io/static/media/Res_Nov_11.pdf" target="_blank">Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 
-export const Project = () => {
+export const Project = () => (
     <div>
         <h4>Project page</h4>
         <div class="left">
@@ -11,4 +11,4 @@ export const Project = () => {
             Created a simple app using Spring Boot and React. 
         </div>
     </div>
-}
+)

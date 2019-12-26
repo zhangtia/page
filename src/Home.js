@@ -84,11 +84,6 @@ export const Home = () => (
             </div>
         </div>
         <div class="filler">.</div>
-        <div class="filler">.</div>
-        <div class="filler">.</div>
-        <div class="filler">.</div>
-        <div class="filler">.</div>
-
 
     </div>
 )

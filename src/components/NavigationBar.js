@@ -43,7 +43,7 @@ export const NavigationBar = () => (
 
 export const FooterPage = () => {
     return (
-        <MDBFooter color="elegant-color" className="font-small darken-3 pt-0">
+        <MDBFooter color="elegant-color" className="font-small darken-3 pt-0" style={{marginTop: '10%'}}>
             <MDBContainer>
                 <MDBRow>
                     <MDBCol md="12" className="py-5">

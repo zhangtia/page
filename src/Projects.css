@@ -2,6 +2,16 @@
     padding-bottom: 10%;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 10% 70% 15%;
+    grid-template-rows: 50px 50px;
+    grid-gap: 5px;
+    background-color: #fff;
+    color: #444;
+    padding-bottom: 10px;
+}
+
 .rightp {
     padding-left: 5%;
     padding-bottom: 2%;
@@ -10,40 +20,29 @@
 .whyp {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 150%;
-    width: 13%;
-    padding-left: 2%;
-    float: left;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 .whyansp {
-    width: 85%;
-    float: left;
-}
-
-.whyall{
-    padding-bottom: 1%;
-    height: auto;
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
 }
 
 .wherep {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 150%;
-    width: 13%;
-    padding-left: 2%;
-    float: left;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
 }
 
 .whereansp {
-    width: 75%;
-    float: left;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
 
 .wherebtn {
-    width: 10%;
-    float: left;
-}
-
-.whereall {
-    padding-bottom: 1%;
-    height: auto;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
 }

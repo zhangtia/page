@@ -8,21 +8,22 @@ export const Project = () => (
         </div>
         <div class="leftp">
             <h4>Capture the Breaker! Tournament Generator</h4>
-            <h5>Personal Project</h5>
         </div>
         <div class="rightp">
             <ul>
                 <li>Created a webapp for annual "Capture the Breaker!" breakdance competition by our dance group, Element 1</li>
                 <li>Utilized Spring Boot to create a back-end microservice, front-end implemented by React and deployed to Heroku</li>
                 <li>Webapp handles logistics fo the tournament: sign-up, preliminary and knockout stages</li>
+                <li>Will implement other battle formats as we organise more competitions (e.g. 7 to smoke)</li>
             </ul>
         </div>
         <div class="whyp">
                 Why?
             </div>
             <div class="whyansp">
-                Created a simple app using Spring Boot and React.
-                Noticed tournament format could not be found online, and a crewmate wrote his own algorithm for seeding and used paper for recording
+                Capture the Breaker has a unique format where the winning team will 'capture' a member from the losing team and progress.
+                Therefore, to ensure the finals consists of the best (top 10) breakers, a crewmate wrote his own algorithm based on the preliminary round scores.
+                That intrigued me and I could not find a tournament generator with our format. So I asked myself: why not combine two of my interests, breaking and coding, in one project?
             </div>
     </div>
 )

@@ -32,8 +32,8 @@ export const Project = () => (
                 Where?
             </div>
             <div class="whereansp">
-                <p>Check out <a href="https://morning-depths-35258.herokuapp.com/" target="_blank">Tournament Generator</a> with User: admin and Pass: Admin123! First deployment after 30 mins of inactivity will take a while, please be patient!</p>
-                <p>Check out our 2019 Capture the Breaker <a href="https://www.facebook.com/events/807989939615445/" target="_blank">Facebook page</a> and the <a href="https://youtu.be/nXCfDSTv3BY" target="_blank">final battle!</a></p>
+                <p>Check out <a href="https://morning-depths-35258.herokuapp.com/" target="_blank">Tournament Generator</a> with USER: admin and PASS: Admin123! Initial deployment will take a while, please be patient!</p>
+                <p>Check out our 2019 Capture the Breaker <a href="https://www.facebook.com/events/807989939615445/" target="_blank">Facebook Page</a> and the <a href="https://youtu.be/nXCfDSTv3BY" target="_blank">Final Battle!</a></p>
             </div>
         </div>
 

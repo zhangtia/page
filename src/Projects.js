@@ -35,7 +35,7 @@ export const Project = () => (
                 Check out the project! First deployment after 30 mins of inactivity might take a while, be patient!
             </div>
             <div class="wherebtn">
-                <Button href="https://morning-depths-35258.herokuapp.com/" target="_blank">Capture the Breaker!</Button>
+                <Button href="https://morning-depths-35258.herokuapp.com/" target="_blank" size="sm">Capture the Breaker!</Button>
             </div>
         </div>
 

@@ -11,8 +11,10 @@
     font-size: 200%;
     width: 20%;
     padding-left: 5%;
+    float: left;
 }
 
 .whyansp {
     width: 70%;
+    float: left;
 }

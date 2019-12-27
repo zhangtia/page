@@ -19,3 +19,21 @@
     width: 85%;
     float: left;
 }
+
+.wherep {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 150%;
+    width: 13%;
+    padding-left: 2%;
+    float: left;
+}
+
+.whereansp {
+    width: 75%;
+    float: left;
+}
+
+.wherebtn {
+    width: 10%;
+    float: left;
+}

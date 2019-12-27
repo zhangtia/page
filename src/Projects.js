@@ -16,13 +16,13 @@ export const Project = () => (
                 <li>Utilized Spring Boot to create a back-end microservice, front-end implemented by React and deployed to Heroku</li>
                 <li>Webapp handles logistics fo the tournament: sign-up, preliminary and knockout stages</li>
             </ul>
-            <div class="whyp">
+        </div>
+        <div class="whyp">
                 Why?
             </div>
             <div class="whyansp">
                 Created a simple app using Spring Boot and React.
                 Noticed tournament format could not be found online, and a crewmate wrote his own algorithm for seeding and used paper for recording
             </div>
-        </div>
     </div>
 )

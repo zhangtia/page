@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import Button from 'react-bootstrap/Button';
 
 export const Project = () => (
     <div>

@@ -18,6 +18,7 @@
 
   .lefttwo {
     width: 40%;
+    background-color: gray;
   }
   
   .right {
@@ -28,6 +29,7 @@
   .righttwo {
     width: 60%;
     padding-left: 3%;
+    background-color: gray;
   }
   
   /* Clear floats after the columns */

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import { Image } from 'react-bootstrap';
 import Bracket from './assets/ctb.png';
 
 export const Project = () => (

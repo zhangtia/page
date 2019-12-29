@@ -41,45 +41,47 @@ export const Home = () => (
                     </p>
                 <p> During my free time, I did research into CovanentSQL, a blockchain database and was successful in deploying a CovanentSQL database locally. I also scribed and translated video meetings between foreign companies.</p>
             </div>
-            <div class="column lefttwo">
-                <Carousel>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={mk1}
-                            alt="First slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={mk2}
-                            alt="Second slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={mk3}
-                            alt="Third slide"
-                        />
-                    </Carousel.Item>
-                </Carousel>
-            </div>
-            <div class="column righttwo">
-                <h4>U-M Makeathon 2019 First Place</h4>
-                <p>During February of 2019, me and a group of friends signed up to participate in the annual Makeathon competition.
-                    We took part in the Amazon Voice Tech competition where teams would design and implement a project related to Amazon's Alexa skill over a weekend.
+            <div class="mkthon">
+                <div class="column lefttwo">
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={mk1}
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={mk2}
+                                alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src={mk3}
+                                alt="Third slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+                <div class="column righttwo">
+                    <h4>U-M Makeathon 2019 First Place</h4>
+                    <p>During February of 2019, me and a group of friends signed up to participate in the annual Makeathon competition.
+                        We took part in the Amazon Voice Tech competition where teams would design and implement a project related to Amazon's Alexa skill over a weekend.
                 </p>
-                <p>
-                    We realized that students commuting by the univeristy buses would wait for extended periods of time, and nobody wishes to do that in Michigan winter!
+                    <p>
+                        We realized that students commuting by the univeristy buses would wait for extended periods of time, and nobody wishes to do that in Michigan winter!
                     As such, our team decided to implement an app to plan the commute of students using U-M blue buses.</p>
-                <p>
-                    Skill development was carried out using <b>AWS Lambda</b> and we used a "Trivia Game" template. We used Google Maps' API and U-M bus services website to calculate when the user to leave for the bus stop.
+                    <p>
+                        Skill development was carried out using <b>AWS Lambda</b> and we used a "Trivia Game" template. We used Google Maps' API and U-M bus services website to calculate when the user to leave for the bus stop.
                 </p>
-                <p>
-                    Check out our <a href="https://github.com/kenzhang98/Blue_Bus_Checker_Frontend" target="_blank" rel="noopener noreferrer">GitHub repository</a> and this <a href="https://medium.com/voice-tech-podcast/alexa-when-is-the-next-bus-620e1aba9474" target="_blank" rel="noopener noreferrer">Medium article</a> about us!
+                    <p>
+                        Check out our <a href="https://github.com/kenzhang98/Blue_Bus_Checker_Frontend" target="_blank" rel="noopener noreferrer">GitHub repository</a> and this <a href="https://medium.com/voice-tech-podcast/alexa-when-is-the-next-bus-620e1aba9474" target="_blank" rel="noopener noreferrer">Medium article</a> about us!
                 </p>
+                </div>
             </div>
         </div>
 

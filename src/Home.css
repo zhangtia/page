@@ -5,7 +5,7 @@
   
 .bkgrgrey {
   background-color: rgb(240, 240, 240);
-  padding-bottom: 2%;
+  padding: 2%;
   height: auto;
 }
 
@@ -13,6 +13,13 @@
   display: -webkit-flex; /* Safari */
   display: flex;
   padding-bottom: 2%;
+}
+
+.mkthon {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  padding-bottom: 2%;
+  margin-top: 2%;
 }
 
   .column {
@@ -31,8 +38,12 @@
 
 
   .lefttwo {
-    width: 40%;
-  }
+    -webkit-flex-grow: 0; /* Safari 6.1+ */
+    -webkit-flex-shrink: 0; /* Safari 6.1+ */
+    -webkit-flex-basis: 40%; /* Safari 6.1+ */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 40%;  }
   
   .right {
     -webkit-flex-grow: 0; /* Safari 6.1+ */
@@ -45,8 +56,13 @@
   }
 
   .righttwo {
-    width: 60%;
-    padding-left: 3%;
+    -webkit-flex-grow: 0; /* Safari 6.1+ */
+    -webkit-flex-shrink: 0; /* Safari 6.1+ */
+    -webkit-flex-basis: 60%; /* Safari 6.1+ */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 60%;
+    padding-left: 30%;
   }
   
   /* Clear floats after the columns */

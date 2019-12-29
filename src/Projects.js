@@ -17,7 +17,7 @@ export const Project = () => (
             <div class="rightp">
                 <ul>
                     <li>Created a webapp for annual "Capture the Breaker!" breakdance competition by our dance group, Element 1</li>
-                    <li>Utilized <b>Spring Boot</b> to create a back-end microservice, front-end implemented by <b>React</b> and deployed to <b>Heroku</b></li>
+                    <li>Utilized <b>Spring Boot to create a back-end microservice</b>, front-end implemented by <b>React</b> and deployed to <b>Heroku</b></li>
                     <li>Webapp handles logistics fo the tournament: sign-up, preliminary and knockout stages</li>
                     <li>Will implement other battle formats as we organise more competitions (e.g. 7 to smoke)</li>
                 </ul>

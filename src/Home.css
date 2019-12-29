@@ -27,6 +27,11 @@
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 30%;
+    height: auto;
+  }
+
+  .left:before {
+    padding-top: 100%;
   }
 
   .lefttwo {

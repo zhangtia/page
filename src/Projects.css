@@ -33,7 +33,7 @@
 
 .whyp {
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 150%;
+    font-size: 24px;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
     width: 100%;
@@ -47,7 +47,7 @@
 
 .wherep {
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 150%;
+    font-size: 24px;
     grid-column: 1 / 2;
     grid-row: 4 / 5;
     width: 100%;

@@ -42,7 +42,7 @@ export const Home = () => (
                 <p> During my free time, I did research into CovanentSQL, a blockchain database and was successful in deploying a CovanentSQL database locally. I also scribed and translated video meetings between foreign companies.</p>
             </div>
             <div class="mkthon">
-                <div class="column lefttwo">
+                <div class="lefttwo">
                     <Carousel>
                         <Carousel.Item>
                             <img
@@ -67,7 +67,7 @@ export const Home = () => (
                         </Carousel.Item>
                     </Carousel>
                 </div>
-                <div class="column righttwo">
+                <div class="righttwo">
                     <h4>U-M Makeathon 2019 First Place</h4>
                     <p>During February of 2019, me and a group of friends signed up to participate in the annual Makeathon competition.
                         We took part in the Amazon Voice Tech competition where teams would design and implement a project related to Amazon's Alexa skill over a weekend.

@@ -23,7 +23,6 @@ export const Home = () => (
                 <p>Currently, I am looking for an internship during Summer 2020 and this website will help you get to know me!</p>
 
                 <p><b>[website still in development!]</b></p>
-                <div class="filler">.</div>
             </div>
             <div class="bkgrgrey">
                 <h4>Data Engineer Intern, Summer 2019</h4>

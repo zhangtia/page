@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import Button from 'react-bootstrap/Button';
 
 export const Project = () => (
     <div>
@@ -32,8 +31,8 @@ export const Project = () => (
                 Where?
             </div>
             <div class="whereansp">
-                <p>Check out <a href="https://morning-depths-35258.herokuapp.com/" target="_blank">Tournament Generator</a> with USER: admin and PASS: admin123! Initial deployment will take a while, please be patient!</p>
-                <p>Check out our 2019 Capture the Breaker <a href="https://www.facebook.com/events/807989939615445/" target="_blank">Facebook Page</a> and the <a href="https://youtu.be/nXCfDSTv3BY" target="_blank">Final Battle!</a></p>
+                <p>Check out <a href="https://morning-depths-35258.herokuapp.com/" target="_blank" rel="noopener noreferrer">Tournament Generator</a> with USER: admin and PASS: admin123! Initial deployment will take a while, please be patient!</p>
+                <p>Check out our 2019 Capture the Breaker <a href="https://www.facebook.com/events/807989939615445/" target="_blank" rel="noopener noreferrer">Facebook Page</a> and the <a href="https://youtu.be/nXCfDSTv3BY" target="_blank">Final Battle!</a></p>
             </div>
         </div>
 

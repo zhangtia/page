@@ -25,7 +25,7 @@ export const Home = () => (
                 <p><b>[website still in development!]</b></p>
                 <div class="filler">.</div>
             </div>
-            <div>
+            <div class="bkgrgrey">
                 <div class="filler">.</div>
                 <h4>Data Engineer Intern, Summer 2019</h4>
                 <p>Over the summer of 2019, I interned at <b>Star Charge of Wanbang New Energy Investment Group Co Ltd.</b> as a data engineer. Company manufactures charging ports for electric vehicles and provides SaaS software</p>
@@ -79,7 +79,7 @@ export const Home = () => (
                     Skill development was carried out using <b>AWS Lambda</b> and we used a "Trivia Game" template. We used Google Maps' API and U-M bus services website to calculate when the user to leave for the bus stop.
                 </p>
                 <p>
-                    Check out our <a href="https://github.com/kenzhang98/Blue_Bus_Checker_Frontend" target="_blank">GitHub repository</a> and this <a href="https://medium.com/voice-tech-podcast/alexa-when-is-the-next-bus-620e1aba9474" target="_blank">Medium article</a> about us!
+                    Check out our <a href="https://github.com/kenzhang98/Blue_Bus_Checker_Frontend" target="_blank" rel="noopener noreferrer">GitHub repository</a> and this <a href="https://medium.com/voice-tech-podcast/alexa-when-is-the-next-bus-620e1aba9474" target="_blank" rel="noopener noreferrer">Medium article</a> about us!
                 </p>
             </div>
         </div>

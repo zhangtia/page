@@ -26,7 +26,6 @@ export const Home = () => (
                 <div class="filler">.</div>
             </div>
             <div class="bkgrgrey">
-                <div class="filler">.</div>
                 <h4>Data Engineer Intern, Summer 2019</h4>
                 <p>Over the summer of 2019, I interned at <b>Star Charge of Wanbang New Energy Investment Group Co Ltd.</b> as a data engineer. Company manufactures charging ports for electric vehicles and provides SaaS software</p>
                 <p>

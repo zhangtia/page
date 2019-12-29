@@ -10,7 +10,8 @@
 }
 
 .PI {
-  height: auto;
+  display: -webkit-flex; /* Safari */
+  display: flex;
   padding-bottom: 2%;
 }
 
@@ -20,7 +21,12 @@
   }
   
   .left {
-    width: 30%;
+    -webkit-flex-grow: 0; /* Safari 6.1+ */
+    -webkit-flex-shrink: 0; /* Safari 6.1+ */
+    -webkit-flex-basis: 30%; /* Safari 6.1+ */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 30%;
   }
 
   .lefttwo {
@@ -28,7 +34,12 @@
   }
   
   .right {
-    width: 70%;
+    -webkit-flex-grow: 0; /* Safari 6.1+ */
+    -webkit-flex-shrink: 0; /* Safari 6.1+ */
+    -webkit-flex-basis: 70%; /* Safari 6.1+ */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 70%;
     padding-left: 10%;
   }
 

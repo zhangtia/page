@@ -12,16 +12,23 @@
     padding-bottom: 10px;
 }
 
+.leftp {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
 .rightp {
     padding-left: 5%;
     padding-bottom: 2%;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
 }
 
 .whyp {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 150%;
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    grid-row: 3 / 4;
 }
 
 .whyansp {
@@ -34,16 +41,16 @@
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 150%;
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 
 }
 
 .whereansp {
     grid-column: 2 / 4;
-    grid-row: 2 / 3;
+    grid-row: 4 / 5;
 }
 
 .wherebtn {
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-row: 4 / 5;
 }

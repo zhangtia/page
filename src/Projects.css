@@ -37,6 +37,7 @@
     grid-column: 1 / 2;
     grid-row: 3 / 4;
     width: 100%;
+    overflow-x: scroll;
 }
 
 .whyansp {
@@ -51,6 +52,7 @@
     grid-column: 1 / 2;
     grid-row: 4 / 5;
     width: 100%;
+    overflow-x: scroll;
 }
 
 .whereansp {

@@ -6,6 +6,9 @@ export const Project = () => (
         <div class="titlep">
             <h2>Welcome to my Project Page!</h2>
         </div>
+        
+
+        <div class="wrapper">
         <div class="leftp">
             <h4>Capture the Breaker! Tournament Generator</h4>
         </div>
@@ -17,8 +20,6 @@ export const Project = () => (
                 <li>Will implement other battle formats as we organise more competitions (e.g. 7 to smoke)</li>
             </ul>
         </div>
-
-        <div class="wrapper">
             <div class="whyp">
                 Why?
             </div>

@@ -36,6 +36,7 @@
     font-size: 150%;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    width: 100%;
 }
 
 .whyansp {
@@ -49,7 +50,7 @@
     font-size: 150%;
     grid-column: 1 / 2;
     grid-row: 4 / 5;
-
+    width: 100%;
 }
 
 .whereansp {

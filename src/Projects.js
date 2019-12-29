@@ -23,7 +23,7 @@ export const Project = () => (
                 </ul>
             </div>
             <div class="bktp">
-                <a href="https://morning-depths-35258.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Image src={Bracket} rounded style={{ width: '100%' }} /></a>
+                <a href="https://umiche1.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Image src={Bracket} rounded style={{ width: '100%' }} /></a>
             </div>
             <div class="whyp">
                 Why?
@@ -37,7 +37,7 @@ export const Project = () => (
                 Where?
             </div>
             <div class="whereansp">
-                <p>Check out <a href="https://morning-depths-35258.herokuapp.com/" target="_blank" rel="noopener noreferrer">Tournament Generator</a> with <u>USER: admin</u> and <u>PASS: admin123</u>! Initial deployment will take a while, please be patient!</p>
+                <p>Check out <a href="https://umiche1.herokuapp.com/" target="_blank" rel="noopener noreferrer">Tournament Generator</a> with <u>USER: admin</u> and <u>PASS: admin123</u>! Initial deployment will take a while, please be patient!</p>
                 <p>Check out our 2019 Capture the Breaker <a href="https://www.facebook.com/events/807989939615445/" target="_blank" rel="noopener noreferrer">Facebook Page</a> and the <a href="https://youtu.be/nXCfDSTv3BY" target="_blank" rel="noopener noreferrer">Final Battle!</a></p>
             </div>
         </div>

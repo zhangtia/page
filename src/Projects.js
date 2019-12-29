@@ -6,20 +6,20 @@ export const Project = () => (
         <div class="titlep">
             <h2>Welcome to my Project Page!</h2>
         </div>
-        
+
 
         <div class="wrapper">
-        <div class="leftp">
-            <h4>Capture the Breaker! Tournament Generator</h4>
-        </div>
-        <div class="rightp">
-            <ul>
-                <li>Created a webapp for annual "Capture the Breaker!" breakdance competition by our dance group, Element 1</li>
-                <li>Utilized Spring Boot to create a back-end microservice, front-end implemented by React and deployed to Heroku</li>
-                <li>Webapp handles logistics fo the tournament: sign-up, preliminary and knockout stages</li>
-                <li>Will implement other battle formats as we organise more competitions (e.g. 7 to smoke)</li>
-            </ul>
-        </div>
+            <div class="leftp">
+                <h4>Capture the Breaker! Tournament Generator</h4>
+            </div>
+            <div class="rightp">
+                <ul>
+                    <li>Created a webapp for annual "Capture the Breaker!" breakdance competition by our dance group, Element 1</li>
+                    <li>Utilized Spring Boot to create a back-end microservice, front-end implemented by React and deployed to Heroku</li>
+                    <li>Webapp handles logistics fo the tournament: sign-up, preliminary and knockout stages</li>
+                    <li>Will implement other battle formats as we organise more competitions (e.g. 7 to smoke)</li>
+                </ul>
+            </div>
             <div class="whyp">
                 Why?
             </div>

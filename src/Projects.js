@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import Bracket from './assets/ctb';
 
 export const Project = () => (
     <div>
@@ -19,6 +20,9 @@ export const Project = () => (
                     <li>Webapp handles logistics fo the tournament: sign-up, preliminary and knockout stages</li>
                     <li>Will implement other battle formats as we organise more competitions (e.g. 7 to smoke)</li>
                 </ul>
+            </div>
+            <div class="bktp">
+                <Image src={Bracket} rounded style={{ width: '100%' }} />
             </div>
             <div class="whyp">
                 Why?

@@ -15,7 +15,7 @@ export const Home = () => (
 
         <div class="parent">
             <div class="PI">
-                <div class="left"><Image src={Headshot} roundedCircle style={{ height: '100%', width: '100%' }} /></div>
+                <div class="left"><Image src={Headshot} roundedCircle style={{ width: '100%' }} /></div>
                 <div class="right">
                     <h2>Hi! My name is Tianqi Zhang, Matthew.</h2>
                     <h5>..and welcome to my webpage!</h5>

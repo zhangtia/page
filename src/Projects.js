@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import Bracket from './assets/ctb';
+import Bracket from './assets/ctb.png';
 
 export const Project = () => (
     <div>

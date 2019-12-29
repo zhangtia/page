@@ -6,9 +6,11 @@
 .bkgrgrey {
   background-color: rgb(240, 240, 240);
   padding-bottom: 2%;
+  height: auto;
 }
 
 .PI {
+  height: auto;
   padding-bottom: 2%;
 }
 

@@ -23,7 +23,7 @@ export const Project = () => (
                 </ul>
             </div>
             <div class="bktp">
-                <Image src={Bracket} rounded style={{ width: '100%' }} />
+                <a href="https://morning-depths-35258.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Image src={Bracket} rounded style={{ width: '100%' }} /></a>
             </div>
             <div class="whyp">
                 Why?

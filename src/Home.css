@@ -5,9 +5,12 @@
   
 .bkgrgrey {
   background-color: rgb(240, 240, 240);
+  padding-bottom: 2%;
 }
 
-
+.PI {
+  padding-bottom: 2%;
+}
 
   .column {
     float: left;

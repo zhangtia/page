@@ -14,15 +14,17 @@ export const Home = () => (
 
 
         <div class="parent">
-            <div class="column left"><Image src={Headshot} roundedCircle style={{ height: '100%', width: '100%' }} /></div>
-            <div class="column right">
-                <h2>Hi! My name is Tianqi Zhang, Matthew.</h2>
-                <h5>..and welcome to my webpage!</h5>
-                <p>I am a junior studying Computer Science and Materials Science at the University of Michigan, Ann Arbor. <i>GO BLUE!</i></p>
-                <p>I am learning about operating systems and database management and am interested in full-stack/back-end programming.</p>
-                <p>Currently, I am looking for an internship during Summer 2020 and this website will help you get to know me!</p>
+            <div class="PI">
+                <div class="column left"><Image src={Headshot} roundedCircle style={{ height: '100%', width: '100%' }} /></div>
+                <div class="column right">
+                    <h2>Hi! My name is Tianqi Zhang, Matthew.</h2>
+                    <h5>..and welcome to my webpage!</h5>
+                    <p>I am a junior studying Computer Science and Materials Science at the University of Michigan, Ann Arbor. <i>GO BLUE!</i></p>
+                    <p>I am learning about operating systems and database management and am interested in full-stack/back-end programming.</p>
+                    <p>Currently, I am looking for an internship during Summer 2020 and this website will help you get to know me!</p>
 
-                <p><b>[website still in development!]</b></p>
+                    <p><b>[website still in development!]</b></p>
+                </div>
             </div>
             <div class="bkgrgrey">
                 <h4>Data Engineer Intern, Summer 2019</h4>
@@ -38,7 +40,6 @@ export const Home = () => (
                      Our databases included <b>MySQL and MongoDB</b> and I had hands-on experience <b>working with JDBC, NoSQL and SQL databases</b>.
                     </p>
                 <p> During my free time, I did research into CovanentSQL, a blockchain database and was successful in deploying a CovanentSQL database locally. I also scribed and translated video meetings between foreign companies.</p>
-                <p class="filler">.</p>
             </div>
             <div class="column lefttwo">
                 <Carousel>
@@ -81,7 +82,6 @@ export const Home = () => (
                 </p>
             </div>
         </div>
-        <div class="filler">.</div>
 
     </div>
 )

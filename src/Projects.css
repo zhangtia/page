@@ -1,5 +1,5 @@
 .titlep {
-    padding-bottom: 10%;
+    padding-bottom: 7%;
 }
 
 .wrapper {
@@ -25,7 +25,8 @@
 }
 
 .bktp {
-    padding-top: 3%;
+    padding-left: 3%;
+    padding-top: 10%;
     grid-column: 3 / 4;
     grid-row: 1 / 3;
 }

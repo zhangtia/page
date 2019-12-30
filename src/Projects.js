@@ -37,8 +37,8 @@ export const Project = () => (
                 Where?
             </div>
             <div class="whereansp">
-                <p>Check out <a href="https://umiche1.herokuapp.com/" target="_blank" rel="noopener noreferrer">Tournament Generator</a> with <u>USER: admin</u> and <u>PASS: admin123</u>! Initial deployment will take a while, please be patient!</p>
-                <p>Check out our 2019 Capture the Breaker <a href="https://www.facebook.com/events/807989939615445/" target="_blank" rel="noopener noreferrer">Facebook Page</a> and the <a href="https://youtu.be/nXCfDSTv3BY" target="_blank" rel="noopener noreferrer">Final Battle!</a></p>
+                <p>Check out <a href="https://umiche1.herokuapp.com/" target="_blank" rel="noopener noreferrer">Tournament Generator</a> with <u>USER: admin</u> and <u>PASS: admin123</u>! &nbsp;&nbsp;&nbsp;Initial deployment will take a while, please be patient!</p>
+                <p>Check out the <a href="https://github.com/zhangtia/E1-tournament" target="_blank" rel="noopener noreferrer">GitHub repo</a> as well as our 2019 Capture the Breaker <a href="https://www.facebook.com/events/807989939615445/" target="_blank" rel="noopener noreferrer">Facebook Page</a> and the <a href="https://youtu.be/nXCfDSTv3BY" target="_blank" rel="noopener noreferrer">Final Battle!</a></p>
             </div>
         </div>
 

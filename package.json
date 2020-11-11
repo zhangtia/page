@@ -4,17 +4,18 @@
   "private": true,
   "homepage": "http://zhangtia.github.io/page/",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.3",
     "flexbox-react": "^4.4.0",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "httpie": "^1.1.2",
-    "mdbreact": "^4.22.0",
-    "react": "^16.10.1",
-    "react-bootstrap": "^1.0.0-beta.12",
-    "react-dom": "^16.10.1",
-    "react-router-dom": "^5.1.1",
+    "jquery": "^3.5.1",
+    "mdbreact": "^4.27.0",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.1.2",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "predeploy": "npm run build",

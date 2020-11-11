@@ -1,11 +1,12 @@
 import React from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
-import { About } from './About';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavigationBar, FooterPage } from './components/NavigationBar';
-import { Jumbotron } from './components/Jumbotron';
+import { Intro } from './components/Intro';
+import { About } from './components/About';
+import { Experience } from './components/Experience';
 import { Project } from './Projects';
 //import { Footer } from './components/Footer';
 
@@ -16,17 +17,9 @@ function App() {
   
     <React.Fragment>
       <NavigationBar />
-      <Jumbotron />
-      <Layout>
-        <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/projects" component={Project} />
-            <Route component={NoMatch} />
-          </Switch>
-        </Router>
-        </Layout>
+      <Intro />
+      <About />
+      <Experience />
       <FooterPage />
     </React.Fragment>
 

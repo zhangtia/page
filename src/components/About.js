@@ -32,6 +32,7 @@ export const About = () => (
         <Styles>
             <div className="PI">
                 <div>
+                    <a name="about"></a>
                     <header><h3>About :</h3></header>
                     <p className="intro">
                         Hi! I'm an undergraduate student at the University of Michigan, Ann Arbor, 

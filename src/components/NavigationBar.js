@@ -26,14 +26,14 @@ const Styles = styled.div`
 export const NavigationBar = () => (
     <Styles>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="/page/#/">Tianqi Zhang</Navbar.Brand>
+            <Navbar.Brand>Tianqi Zhang</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto"></Nav>
                 <Nav>
-                    <Nav.Link href="/page/#">Home</Nav.Link>
-                    <Nav.Link href="/page/#/about">About</Nav.Link>
-                    <Nav.Link href="/page/#/projects">Projects</Nav.Link>
+                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="#experience">Experience</Nav.Link>
+                    <Nav.Link href="#projects">Projects</Nav.Link>
                     <Nav.Link href="https://zhangtia.github.io/static/media/MatthewTQZhang.pdf" target="_blank">Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
@@ -71,7 +71,7 @@ export const FooterPage = () => {
             </MDBContainer>
             <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
-                    &copy; {new Date().getFullYear()} Made with MDBootstrap and React
+                    &copy; {new Date().getFullYear()} Made with MDBootstrap and React by Tianqi Zhang.
                 </MDBContainer>
             </div>
         </MDBFooter>

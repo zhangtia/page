@@ -57,6 +57,7 @@ export const Intro = () => (
         <Styles>
             <div className="PI">
                 <div className="left">
+                    <a name="home"></a>
                     <header><h1>Tianqi Zhang</h1></header>
                     <p className="myLinks">
                         <a href="mailto: zhangtia@umich.edu" target="_blank" rel="noopener noreferrer">zhangtia@umich.edu</a> <br/>

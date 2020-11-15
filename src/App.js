@@ -7,6 +7,8 @@ import { NavigationBar, FooterPage } from './components/NavigationBar';
 import { Intro } from './components/Intro';
 import { About } from './components/About';
 import { Experience } from './components/Experience';
+import { Projects } from './components/Projects';
+import { Contact } from './components/Contact';
 import { Project } from './Projects';
 //import { Footer } from './components/Footer';
 
@@ -20,6 +22,8 @@ function App() {
       <Intro />
       <About />
       <Experience />
+      <Projects />
+      <Contact />
       <FooterPage />
     </React.Fragment>
 
